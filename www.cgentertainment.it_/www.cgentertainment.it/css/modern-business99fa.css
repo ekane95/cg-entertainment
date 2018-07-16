@@ -1,0 +1,954 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+	padding-top:63px;
+    height: 100%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+  	font-size: 18px;
+	background-color:#f1f1f1;
+	position: relative;
+}
+.navbar-brand {
+  float: left;
+  height: 65px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top:10px;
+}
+
+.navbar-right {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.navbar-nav > li > a {
+	display: block;
+}
+
+.dropdown-menu > li {
+	text-align: center;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.2;
+}
+
+.titolo_news {padding:0px;}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+.startup-box{
+	position:relative; 
+	top:130px; 
+	padding:10px; 
+	background-color:#ffffff; 
+	z-index:999999;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+}
+
+.social_panel {
+	margin-bottom: 15px;
+}
+
+
+.video_titolo {
+	position:absolute;
+	width:85%;
+	padding: 5px;
+	padding-bottom: 0px;
+	bottom: 0px;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #ffffff;
+}
+
+
+.video_numerovideo {
+	position:absolute;
+	width:85%;
+	padding: 5px;
+	padding-bottom: 0px;
+	top: 0px;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #ffffff;
+}
+
+.video_img.down>.video_numerovideo {
+	top: 19px;
+}
+
+
+
+.video_img {
+	position: relative;
+	cursor: pointer;
+}
+
+.video_img.down {
+	padding-top: 19px;
+}
+
+.video_gif {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	width: 15px; 
+	height: 30px;
+}
+
+.video_playpause {
+	position: absolute;
+	width: 30%;
+	bottom: 30%;
+	left: calc(35% + 7px);
+}
+
+.video_img.down>.video_playpause {
+	bottom: calc(30% - 7px);
+}
+
+.canali_titolo_schedafilm {
+	font-family: Montserrat;
+	font-weight: 400;
+	position: absolute;
+	max-width: 300px;
+	text-align: center;
+	text-shadow: 0 0 0 0; /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+	background-color:#ffffff;
+	opacity:0.8;
+	color:#000000;
+}
+
+.canali_titolo_label {
+	font-family: Montserrat;
+	font-weight: 400;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0px;
+	padding: 0px;
+	font-size: 20px;
+	text-shadow: 0 0 2px #fff; /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Glow(Color=#ffffff,Strength=1);
+	bottom: 0%;
+	background-color:#ffffff;
+	opacity:0.8;
+	position:relative;
+	margin-top:-28px;
+}
+
+.canali_img {
+	position: relative;
+	cursor: pointer;
+	background-clip:content-box;
+	background-color: #ffffff;
+}
+
+
+.esplora_item {
+	padding-left:0px; 
+	padding-right:0px; 
+	border:1px solid #eaeaea; 
+	background-color: #ffffff; 
+	border:1px solid #eaeaea; 
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.esplora_item_hover {
+	padding-left:0px; 
+	padding-right:0px; 
+	border:1px solid #eaeaea; 
+	background-color:#2b363c; 
+	color:#ffffff; 
+	border:1px solid #eaeaea; 
+	text-align:center;
+	cursor: pointer;
+	margin-bottom:30px;
+}
+
+.esplora_label_canale {
+	background-color:#dddddd;
+	color:#ffffff;
+	text-align:center;
+	width:98%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:auto;
+	margin-bottom:2px;
+	margin-top:10px;
+	font-size:16px;
+	font-family:Montserrat;
+	font-weight:200;
+}
+
+.esplora_label_canale_hover {
+	background-color:#ffffff; 
+	color:#2b363c; 
+	text-align:center;
+	width:98%;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:auto;
+	margin-bottom:2px;
+	margin-top:10px;
+	font-size:16px;
+	font-family:Montserrat;
+	font-weight:200;
+	cursor: pointer;;
+}
+
+@media (max-width: 550px) {
+	body {
+	    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	}
+
+	header.carousel {
+	    height: 50%;
+	    /*font-family: Helvetica, Arial, sans-serif;*/
+	}
+
+	.startup-box{
+		position:relative; 
+		top:25px; 
+		padding:10px; 
+		background-color:#ffffff; 
+		z-index:999999;
+	}
+
+    .col-xxs-12 {
+        width: 100%
+    }
+    
+    .carouselElement {
+    	max-width:184px;
+    	margin: auto;
+    	float: none;
+    }
+
+	.locandina_esplora {
+		height: 230px;
+		width:183px;
+	}
+
+
+    .photogallery_slide {
+		height: 180px;
+		width: 300px;
+		border:2px solid #ffffff;
+	}
+	
+
+	.carousel-lineheight {
+		line-height: 20px;
+	}
+
+	.carousel-titolo {
+		font-size:30px;
+	}
+
+	.carousel-abstract {
+		font-size: 16px;
+	}
+
+	.carousel-regia {
+		font-size: 13px;
+		margin-top: 5px;
+		line-height: 18px;
+	}
+
+	.titolo_news {padding-left:10px; }
+	.social_share {padding-top: 5px; padding-bottom: 18px; padding-left: 17px;}
+}
+
+@media (min-width: 551px) {
+	body {
+	    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	}
+	.photogallery_slide {
+		height: 150px;
+		width: 250px;
+		border:2px solid #ffffff;
+	}
+
+	.locandina_esplora {
+		height: 260px;
+		width:184px;
+	}
+	
+	.carousel-lineheight {
+		line-height: 20px;
+	}
+}
+
+@media(max-width:767px) {
+
+	.dropdown-menu > li {
+		text-align: left;
+	}
+	
+	.social_panel {
+		padding: 0px 0px 0px 0px;
+	}
+
+	.cover {
+		min-height: 220px;
+	}
+	
+	.locandine_slide {
+		height: 350px;
+		width: 246px;
+		border:1px solid #ffffff;
+	}
+	
+    header.carousel {
+        height: 30%;
+	    /*font-family: Helvetica, Arial, sans-serif;*/
+    }
+
+	.startup-box{
+		position:relative; 
+		top:25px; 
+		padding:10px; 
+		background-color:#ffffff; 
+		z-index:999999;
+	}
+
+	.news_slide {
+		height: 300px;
+		width: 100%;
+		border:1px solid #ffffff;
+	}
+
+	.titolo_news {padding-left:10px;}
+
+	.acquista_slide {
+		height: 95px;
+		width: 165px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	.acquista_slide_min {
+		height: 42px;
+		width: 165px;
+		border: 2px solid #ffffff;
+		background-color: #ebebeb;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.acquista_slide_promo {
+		height: 95px;
+		width: 245px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	.img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+    
+	.navbar-brand {
+		float: left;
+		height: 40px;
+		padding: 5px 5px;
+		font-size: 18px;
+		line-height: 20px;
+		margin-top:5px;
+	}
+
+	.canali_img {
+		padding-top: 15px;
+	}
+	.canali_img.left-xs {
+		padding-left: 0px;
+	}
+	.canali_img.right-xs {
+		padding-right: 0px;
+	}
+
+
+	.canali_titolo_label {
+		bottom: 0%;
+	}
+	.canali_titolo_label.small-xs-left {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-right: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+	.canali_titolo_label.small-xs-right {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-left: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+
+	.carousel-titolo {
+		font-size:30px;
+		margin-top: 30px;
+	}
+
+	.carousel-abstract {
+		font-size: 16px;
+	}
+
+	.carousel-regia {
+		font-size: 13px;
+		margin-top: 5px;
+		line-height: 18px;
+	}
+
+}
+@media(min-width:768px) {
+
+	.social_panel.left {
+		padding: 0px 10px 0px 0px;
+	}
+
+	.social_panel.center {
+		padding: 0px 5px 0px 5px;
+	}
+
+	.social_panel.right {
+		padding: 0px 0px 0px 10px;
+	}
+	
+	.cover {
+		min-height: 330px;
+	}
+	
+	.locandine_slide {
+		height: 300px;
+		width: 211px;
+		border:1px solid #ffffff;
+	}
+	
+	.locandina_esplora {
+		height: 337px;
+		width: 238px;
+	}
+
+	.news_slide {
+		height: 180px;
+		width: 320px;
+		border:1px solid #ffffff;
+	}
+
+	.photogallery_slide {
+		height: 140px;
+		width: 230px;
+		border:2px solid #ffffff;
+	}
+	
+	.carousel-lineheight {
+		line-height: 25px;
+	}
+
+	.acquista_slide {
+		height: 95px;
+		width: 165px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	.acquista_slide_min {
+		height: 42px;
+		width: 165px;
+		border: 2px solid #ffffff;
+		background-color: #ebebeb;
+	}
+
+	.acquista_slide_promo {
+		height: 95px;
+		width: 212px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	body {
+	    padding-top: 38px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	  	font-size: 15px;
+	}
+
+	.navbar-left {
+		float: left !important;
+	}
+	.navbar-right {
+		float: right !important;
+		margin-right: -30px;
+		margin-top:17px;
+		font-size: 14px;
+	}
+	.navbar-right ~ .navbar-right {
+		margin-right: 0;
+	}
+	.nav > li > a {
+		position: relative;
+		display: block;
+		padding-left: 4px;
+		padding-right: 4px;
+	  font-weight: 200;
+
+	}
+
+	.navigation_attivo {
+		background-color: #e2e2e2; 
+		color: red; 
+		padding: 6px;
+		padding-top:14px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #e2e2e2;
+	}
+
+	.canali_img.left-md {
+		padding-left: 0px;
+		padding-right: 10px;
+		margin-top: 15px;
+	}
+	.canali_img.right-md {
+		padding-left: 10px;
+		padding-right: 0px;
+		margin-top: 15px;
+	}
+	.canali_img.center-md {
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-top: 15px;
+	}
+
+	.canali_titolo_label.small-md-left {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-right: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+	.canali_titolo_label.small-md-right {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-right: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+	.canali_titolo_label.small-md-center {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-right: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+
+}
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+    
+    .video_iframe {
+		padding: 0px;
+		border:1px solid #ffffff;
+		height: 56.25vw;
+		margin-bottom: 19px;
+	}
+	
+	.video_img.left {
+		padding-left: 0px;
+		padding-right: 7px;
+	}
+	
+	.video_img.right {
+		padding-left: 7px;
+		padding-right: 0px;
+	}
+	
+	.video_img.margin5 {
+		margin-left: 0px;
+	}
+	
+	.video_img.margin-15 {
+		margin-left: 0px;
+	}
+	
+	.left>.video_gif {
+		right: 12px;
+	}
+	
+	.video_playpause {
+		left: 35%;
+	}
+	
+}
+
+
+@media (min-width: 992px) {
+	.video_iframe {
+		padding: 0px;
+		border:1px solid #ffffff;
+		height:358px;
+		margin-bottom: 0px;
+	}
+	
+	.video_img {
+		padding-left: 15px;
+		padding-right: 0px;
+	}
+	
+	.video_img.margin5 {
+		margin-left: 5px;
+	}
+	
+	.video_img.margin-15 {
+		margin-left: -15px;
+	}
+	
+	.cover {
+		min-height: 400px;
+	}
+
+	.locandine_slide {
+		height: 320px;
+		width: 225px;
+		border:2px solid #ffffff;
+	}
+	
+	.locandina_esplora {
+		height: 219px;
+		width: 155px;
+	}
+
+	.news_slide {
+		height: 220px;
+		width: 300px;
+		border:2px solid #ffffff;
+	}
+
+	.photogallery_slide {
+		height: 100px;
+		width: 150px;
+		border:2px solid #ffffff;
+	}
+	
+	.carousel-lineheight {
+		line-height: 30px;
+	}
+
+	.acquista_slide {
+		height: 95px;
+		width: 155px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	.acquista_slide_min {
+		height: 42px;
+		width: 155px;
+		border: 2px solid #ffffff;
+		background-color: #ebebeb;
+	}
+
+	.acquista_slide_promo {
+		height: 95px;
+		width: 225px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	body {
+		padding-top: 63px;
+	}	
+	.navbar-brand {
+		float: left;
+		height: 65px;
+		padding: 15px 15px;
+		font-size: 18px;
+		line-height: 20px;
+		margin-top:20px;
+	}
+
+	.navbar-left {
+		float: left !important;
+	}
+	.navbar-right {
+		float: right !important;
+		margin-right: -30px;
+		margin-top:26px;
+		font-size: 18px;
+	}
+	.navbar-right ~ .navbar-right {
+		margin-right: 0;
+	}
+	.nav > li > a {
+		position: relative;
+		display: block;
+		padding-left: 10px;
+		padding-right: 10px;
+	  font-weight: 200;
+	}
+
+	.navigation_attivo {
+		background-color: #e2e2e2; 
+		color: red; 
+		padding-top: 15px; 
+		padding: 10px; 
+		border-bottom: 2px solid #e2e2e2;
+	}
+
+	.canali_img.left-md {
+		padding-left: 15px;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+	
+	.canali_img.left-lg {
+		padding-left: 15px;
+		padding-right: 0px;
+		margin-top: 0px;
+		margin-left: -15px;
+	}
+	
+	.canali_img.right-md {
+		padding-left: 15px;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+	.canali_img.center-md {
+		padding-left: 15px;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+	
+	.canali_img.center-lg {
+		padding-left: 15px;
+		padding-right: 0px;
+		margin-top: 0px;
+		margin-left: 7px;
+	}
+	
+	.canali_img.down-xl {
+		margin-top: 19px;
+	}
+
+
+	.canali_titolo_label.small-md-right {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-left: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+	.canali_titolo_label.small-md-center {
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		padding: 0px;
+		padding-left: 15px;
+		font-size: 18px;
+		bottom: 0%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.video_iframe {
+		padding: 0px;
+		border:1px solid #ffffff;
+		height:433px;
+	}
+	
+	.cover {
+		min-height: 560px;
+	}
+
+	.locandine_slide {
+		height: 350px;
+		width: 246px;
+		border:2px solid #ffffff;
+	}
+	
+	.locandina_esplora {
+		height: 264px;
+		width: 188px;
+	}
+
+	.news_slide {
+		height: 250px;
+		width: 350px;
+		border:2px solid #ffffff;
+	}
+	
+	.photogallery_slide {
+		height: 125px;
+		width: 180px;
+		border:2px solid #ffffff;
+	}
+	
+	.carousel-lineheight {
+		line-height: 40px;
+	}
+
+	.acquista_slide {
+		height: 95px;
+		width: 165px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	.acquista_slide_min {
+		height: 42px;
+		width: 165px;
+		border: 2px solid #ffffff;
+		background-color: #ebebeb;
+	}
+
+	.acquista_slide_promo {
+		height: 95px;
+		width: 247px;
+		border: 2px solid #ebebeb;
+		background-color: #ffffff;
+	}
+
+	body {
+		padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	}	
+	.navbar-brand {
+		float: left;
+		height: 80px;
+		padding: 15px 15px;
+		font-size: 18px;
+		line-height: 20px;
+		margin-top:20px;
+	}
+
+	.navbar-left {
+		float: left !important;
+	}
+	.navbar-right {
+		float: right !important;
+		margin-right: -30px;
+		margin-top:32px;
+		font-size: 21px;
+	}
+	.navbar-right ~ .navbar-right {
+		margin-right: 0;
+	}
+	.nav > li > a {
+		position: relative;
+		display: block;
+		padding-left: 10px;
+		padding-right: 10px;
+	  font-weight: 200;
+
+	}
+
+	.navigation_attivo {
+		background-color: #e2e2e2; 
+		color: red; 
+		padding-top: 15px; 
+		padding: 10px; 
+		border-bottom: 2px solid #e2e2e2;
+	}
+	
+}
+
+.carousel-showmanymoveone .carousel-control {
+    width: 4%;
+    background-image: none
+}
+.carousel-showmanymoveone .carousel-control.left {
+    margin-left: 15px
+}
+.carousel-showmanymoveone .carousel-control.right {
+    margin-right: 15px
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+footer a {
+	color: #999999;
+}
+footer a:hover {
+	color: #ffffff;
+}

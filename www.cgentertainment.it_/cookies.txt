@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.google.com	TRUE	/	FALSE	1999999999	NID	134=C7knTD0--5O2zy9KwFii9i0uKKJejSJEXeTQL2kLLrF6AqFfa3P1tNLJth1I-AeKl5iZXx86g0XKbX0USLXkl8njpLS5eTkqtfzvzDSKr_Q_av1HgV6DKYNmJo_oIGQh
+www.cgentertainment.it	TRUE	/	FALSE	1999999999	ASPSESSIONIDACTATBQA	AKOJOAOAFIKOAODGOFIPGPLM
+.youtube.com	TRUE	/	FALSE	1999999999	VISITOR_INFO1_LIVE	W0Ps-qWAy9Y
+.youtube.com	TRUE	/	FALSE	1999999999	YSC	GXPJL34JF4k
+.youtube.com	TRUE	/	FALSE	1999999999	GPS	1
+
